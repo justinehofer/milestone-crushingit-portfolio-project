@@ -168,3 +168,10 @@ header nav ul li a{
 #work .right-side .half-width{
     text-align: right;
 }
+
+/* ABOUT */
+#about{
+    height: 550px;
+    background: url('../img/about-me.png');
+    background-size: cover;
+}

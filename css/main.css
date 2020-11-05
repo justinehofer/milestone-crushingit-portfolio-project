@@ -175,3 +175,11 @@ header nav ul li a{
     background: url('../img/about-me.png');
     background-size: cover;
 }
+
+#about .full-width h3{
+    font-size: 36px;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: lowercase;
+    text-align: center;
+    color: #fa0075;
+}

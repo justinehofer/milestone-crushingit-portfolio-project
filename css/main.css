@@ -1,5 +1,4 @@
 
-
 /* BASE STYLES */
 
 body{
@@ -67,14 +66,16 @@ header nav ul li a{
     background-size: cover;
 }
 
-#hero-background .full-width h1{
+#hero-background h1{
     font-size: 72px;
     font-family: 'Source Code Pro', monospace;
     text-transform: lowercase;
-    padding-top: 308px;
+    margin-top: 0px;
+    margin-left: 99px;
+    padding-top: 283px;
 }
 
-#hero-background .full-width h1 span{
+#hero-background h1 span{
     color: #fa0075;
 }
 
@@ -193,4 +194,46 @@ header nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #1f202b;
+}
+
+/* CONTACT */
+#contact{
+    height: 400px;
+}
+
+#contact .full-width h3{
+    font-size: 36px;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: lowercase;
+    text-align: center;
+    color: #fa0075;
+}
+
+#contact .third-width h4{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact .third-width p{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact .third-width ul{
+    list-style: none;
+}
+
+#contact .third-width ul li{
+    display: inline-block;
+}
+
+#contact .third-width ul img{
+    padding-left: 15px;
+    padding-right: 50px;
 }
